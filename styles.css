@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  background-color: #1f2937;
+}
+
+.container {
+  display: flex;
+  color: white;
+}
+
+#logo {
+  margin-left: 300px;
+  margin-right: auto;
+}
+.lists {
+  display: flex;
+  margin-right: 300px;
+}
+
+.item {
+  flex: auto;
+  margin-right: 20px;
+  list-style: none;
+  color: #f9faf8;
+}
+
+.hero {
+  display: flex;
+  padding-left: 300px;
+  align-items: center;
+  background-color: #1f2937;
+  color: #f9faf8;
+}
+
+.item-h {
+  flex: auto;
+}
+
+.item-h button {
+  width: 120px;
+  height: 30px;
+  color: aliceblue;
+  background-color: #3882f6;
+  border-color: white;
+  padding: 20px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  text-align: center;
+  padding-bottom: 35px;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 48px;
+  font-style: extra-bold;
+  color: #f9faf8;
+}
+
+.item-h img {
+  margin-top: 100px;
+  height: auto;
+  width: 420px;
+}
+
+.header {
+  margin-top: 80px;
+  text-align: center;
+  font-size: 36px;
+  font-style: extra-bold;
+  color: #1f2937;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  margin: 16px;
+}
+
+.card img {
+  height: auto;
+  width: 170px;
+  border: 2px solid #3882f6;
+  border-radius: 10px;
+}
+
+.text-c {
+  display: flex;
+  width: 200px;
+  padding-left: 900px;
+}
+
+.card-t {
+  margin: 16px;
+  padding-right: 94px;
+  flex: auto;
+  flex-wrap: wrap;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: grey;
+  align-items: center;
+}
+
+.quote p {
+  margin: 50px;
+  width: 300px;
+}
+
+.quote h3 {
+  margin-left: 30px;
+  margin-bottom: 50px;
+}
+
+.sign-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+}
+
+.foot-item {
+  background-color: #3882f6;
+  height: auto;
+  width: auto;
+}
+
+.foot-item button {
+  width: 120px;
+  height: 30px;
+  color: aliceblue;
+  background-color: #3882f6;
+  border-color: white;
+  padding: 20px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  margin-right: 10px;
+  text-align: center;
+  padding-bottom: 35px;
+  border-radius: 6px;
+}
+
+footer {
+  height: 100px;
+  color: #f9faf8;
+  text-align: center;
+  background-color: #1f2937;
+  padding: 20px;
+  padding-top: 30px;
+}
